@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registro de Libro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <Link href="cregistrousuario.css" rel="stylesheet" />
+        <div id="contenedor">
+
+            <h1>Registro de Libro</h1>
+
+            <form method="post" action="#">
+                <ul>
+                    <li>
+                        <label class="titulo" for="nombre">Registro de libro</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="nombre" name="nombre" value="" />
+                                <label for="nombre">Ingrese el nombre del Libro</label>
+                            </span>
+
+                            <span class="completo">
+                                <input id="apellido1" name="apellido1" value="" />
+                                <label for="apellido1">Ingrese el codigo </label>
+                            </span>
+                            
+                            <span class="completo">
+                                <input id="autor" name="autor" value="" />
+                                <label for="autor">Ingrese nombre del autor </label>
+                            </span>
+                            
+                            <span class="completo">
+                                <input id="Registro" name="Registro" value="" />
+                                <label for="Registro">registre cantidad de ingreso </label>
+                            </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="direccion">Item Claves:</label>
+
+                        <div class="controles">
+                            
+                                                        
+                            <span class="completo">
+                                <input id="palabras" name="palabras" value="" />
+                                <label for="palabras">Palabras Claves</label>
+                            </span>
+                            
+                            <span class="completo">
+                                <input id="frases" name="frases" value="" />
+                                <label for="frases">Frases Claves</label>
+                            </span>
+                        
+                        </div>
+                    </li>
+                    <li>
+                        <label class="titulo" for="direccion">Limites</label>
+
+                        <div class="controles">
+                            
+
+                            <span class="dostercios">
+                                <select id="limites" name="limites">
+                                    <option value=""></option>
+                                    <option value="limites">Biblioteca del campus</option>
+                                    <option value="limites">Biblioteca Central</option>
+                                    <option value="limites">Bliblioteca de Ciencias sociales</option>
+                                    <option value="limites">Biblioteca de Teologia</option>
+                                    <option value="limites">Coleccion de Estudios</option>
+                                    <option value="limites">Coleccion de Estudios Generales</option>
+                                    <option value="limites">Coleccion de mapas</option>
+                                    
+                                </select>
+                                <label for="limites">Ubicacion</label>
+                            </span>
+
+                        
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <label class="titulo" for="direccion">Idioma</label>
+
+                        <div class="controles">
+                            
+
+                            <span class="dostercios">
+                                <select id="idioma" name="idioma">
+                                    <option value=""></option>
+                                    <option value="idioma">Ingles</option>
+                                    <option value="idioma">Español</option>
+                                    <option value="idioma">Chino</option>
+                                    <option value="idioma">Portugues</option>
+                                    
+                                    
+                                </select>
+                                <label for="idioma">Idioma</label>
+                            </span>
+
+                        
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <label class="titulo" for="tipo">Tipo de Formato</label>
+
+                        <div class="controles">
+                            
+
+                            <span class="dostercios">
+                                <select id="tipo" name="tipo">
+                                    <option value=""></option>
+                                    <option value="tipo">Atlas</option>
+                                    <option value="tipo">Foto</option>
+                                    <option value="tipo">Disco de Video</option>
+                                    <option value="tipo">Disco de Audio</option>
+                                    <option value="tipo">Digital</option>
+                                    <option value="tipo">Impreso</option>
+                                    <option value="tipo">Mapa</option>
+                                    <option value="tipo">Material visual</option>
+                                    
+                                    
+                                </select>
+                                <label for="idioma">Tipo</label>
+                            </span>
+
+                        
+                        </div>
+                     
+                    <li class="botones">
+                        <input id="alta" type="submit" value="Registrarse" />
+                        <a href="index.html">Regresar</a>
+                        
+                    </li>
+       
+                </ul>
+            </form>
+    </body>
+</html>

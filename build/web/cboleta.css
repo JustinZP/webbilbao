@@ -1,0 +1,166 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 ago. 2022, 11:57:58
+    Author     : Reneman
+*/
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background: #2E4053;
+}
+
+/* CONTENEDOR GENERAL */
+#contenedor {
+  background: #839192;
+  margin: 1em auto;
+  padding: 1em;
+  width: 768px;
+}
+
+/* El formulario está definido como una lista */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*LINEAS DE  CONTENEDORES*/
+ul li {
+  border-top: 1px solid #2E4053;
+  margin: 1em 0;
+  padding: 1em;
+  width: auto;
+  overflow: hidden;
+}
+
+/* El formulario se organiza en dos columnas, el título y los controles */
+ul li label.titulo {
+  float: left;
+  width: 150px;
+  text-align: right;  
+}
+ul li div.controles {
+  margin-left: 160px;
+}
+
+/* El último elemento del formulario es el botón "Registrarse" */
+ul li.botones {
+  border-top: 2px solid #839192;
+  clear: both;
+  float: none;
+  padding: 1em 0;
+  text-align: right;
+  width: 100%;
+}
+ 
+ul li.botones input {
+  font-size: 18px;
+}
+
+/* El título de los elementos de la lista */ 
+ul li label.titulo {
+  font-weight: bold;
+}
+ 
+ul li div span {
+  float: left;
+  padding: 0.3em 0;
+}
+ 
+ul li div span.completo {
+  width: 100%;
+}
+ 
+ul li div span.mitad {
+  width: 50%;
+}
+ 
+ul li div span.dostercios {
+  width: 66%;
+}
+
+/* Como se define display: block, se muestra en la línea siguiente */
+ul li div span label {
+  display: block;
+  font-size: 12px;
+  color: #333;
+}
+
+/* Configuración de los controles del formulario */
+ul li input {
+  padding: 0.2em;
+}
+ 
+ input#direccion, input#email {
+  width: 260px;
+}
+
+ 
+select#provincia {
+  width: 150px;
+}
+ 
+select#pais {
+  width: 150px;
+}
+ 
+input#telefonofijo, input#telefonomovil {
+  width: 135px;
+}
+ 
+/* cURSOR SOBRE LOS CONTENEDORES */
+ul li:hover {
+  background-color: #BFC9CA;
+}
+ 
+ul li.botones:hover {
+  background-color: transparent;
+}
+
+/* Destaca el control cuando recibe el foco */
+ul li input, ul li select {
+  border: 2px solid transparent;
+  border-bottom: 2px solid black;
+}
+
+ul li.botones input {
+  border: 2px solid #CCC;
+}
+
+ul li input:focus, ul li select:focus {
+  border: 2px solid #AAA;
+}
+
+/*PARA LA TABLA*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+table, tr, th, td {
+  border: 1px solid #333;
+  line-height: 2em;
+}
+
+th {
+  background-color: #73C6B6;
+  padding: 0 .5em;
+}
+
+td {
+  padding: 0 .3em;
+}
+
+tr:nth-child(n+1) td {
+  text-align: right;
+}
+
+tr:nth-child(2n) {
+  background-color: #A9DFBF;
+}
+
+tr:hover {
+  background: #52BE80;
+}
+

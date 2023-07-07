@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registro de Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <Link href="cregistrousuario.css" rel="stylesheet" />
+        <div id="contenedor">
+
+            <h1>Registro de Usuario</h1>
+
+            <form method="post" action="#">
+                <ul>
+                    <li>
+                        <label class="titulo" for="nombre">Nombres y apellidos</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="nombre" name="nombre" value="" />
+                                <label for="nombre">Nombres</label>
+                            </span>
+
+                            <span class="completo">
+                                <input id="apellido1" name="apellido1" value="" />
+                                <label for="apellido1">Apellidos</label>
+                            </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="direccion">Documento de Identidad</label>
+
+                        <div class="controles">
+                            
+                            <span class="numero">
+                                <select id="numero" name="numero">
+                                    <option value=""></option>
+                                    <option value="pais1">Pasaporte</option>
+                                    <option value="pais2">DNI (Documento Nacional de Identidad)</option>
+                                    <option value="pais3">Carnet de extranjeria</option>
+                                    
+                                </select>
+                                <label for="ciudad">Seleccione el Tipo</label>
+                            </span>
+                            
+                            <span class="completo">
+                                <input id="direccion" name="direccion" value="" />
+                                <label for="direccion">Ingrese el Numero</label>
+                            </span>
+                        
+                        </div>
+                    </li>
+                    <li>
+                        <label class="titulo" for="direccion">Dirección</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="direccion" name="direccion" value="" />
+                                <label for="direccion">Direccion completa</label>
+                            </span>
+
+                            <span class="tercio">
+                                <input id="codigopostal" name="codigopostal" value="" />
+                                <label for="codigopostal">Código postal</label>
+                            </span>
+
+                            <span class="dostercios">
+                                <select id="Distrito" name="Distrito">
+                                    <option value=""></option>
+                                    <option value="provincia1">Ciudad Nueva</option>
+                                    <option value="provincia2">Gregorio Albarracin L.</option>
+                                    <option value="provincia3">Tacna</option>
+                                    <option value="provincia3">Calana</option>
+                                    <option value="provincia3">Pachia</option>
+                                    <option value="provincia3">Sama</option>
+                                    <option value="provincia3">Pocollay</option>
+                                    <option value="provincia3">Inclan</option>
+                                    <option value="provincia3">Alto de la Alianza</option>
+                                </select>
+                                <label for="Distrito">Distrito</label>
+                            </span>
+
+                            <span class="tercio">
+                                <select id="provincia" name="provincia">
+                                    <option value=""></option>
+                                    <option value="provincia1">Candarave</option>
+                                    <option value="provincia2">Jorge Basadre</option>
+                                    <option value="provincia3">Tacna</option>
+                                    <option value="provincia3">Tarata</option>
+                                    
+                                </select>
+                                <label for="provincia">Provincia</label>
+                            </span>
+
+                            <span class="dostercios">
+                                <select id="ciudad" name="ciudad">
+                                    <option value=""></option>
+                                    <option value="pais1">Tacna</option>
+                                    <option value="pais2">Arequipa</option>
+                                    <option value="pais3">Moquegia</option>
+                                    <option value="pais3">Ilo</option>
+                                    <option value="pais3">Lima</option>
+                                    <option value="pais3">Puno</option>
+                                    <option value="pais3">Cuzco</option>
+                                </select>
+                                <label for="ciudad">Ciudad</label>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="email">Correo Electronico</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="email" name="email" value="" />
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="telefonofijo">Numero de Contacto</label>
+
+                        <div class="controles">
+                            <span class="mitad">
+                                <input id="telefonofijo" name="telefonofijo" value="" />
+                                <label for="telefonofijo">Fijo</label>
+                            </span>
+
+                            <span class="mitad">
+                                <input id="telefonomovil" name="telefonomovil" value="" />
+                                <label for="telefonomovil">Celular</label>
+                            </span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <label class="titulo" for="telefonofijo">Preferencias</label>
+                        
+                        <div class="titulos">
+                        <span class="titulos">
+                                <select id="ciudad" name="ciudad">
+                                    <option value=""></option>
+                                    <option value="pais1">Literatura</option>
+                                    <option value="pais2">Cientificos</option>
+                                    <option value="pais3">Bibliografias</option>
+                                    <option value="pais3">Monografia</option>
+                                    <option value="pais3">Melodrama</option>
+                                    <option value="pais3">Comedia</option>
+                                    <option value="pais3">Tragedia</option>
+                                </select>
+                                <label for="ciudad">Titulo</label>
+                            </span>
+                        </div>
+
+                    <li class="botones">
+                        <input id="alta" type="submit" value="Registrarse" />
+                        <a href="index.html">Regresar</a>
+                        
+                    </li>
+       
+                </ul>
+            </form>
+    </body>
+
+</html>

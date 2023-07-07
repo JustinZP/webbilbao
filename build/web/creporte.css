@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 ago. 2022, 19:12:44
+    Author     : Reneman
+*/
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+table, tr, th, td {
+  border: 1px solid #DC7633;
+  line-height: 2em;
+}
+
+th {
+  background-color: #DC7633;
+  padding: 0 .5em;
+}
+
+td {
+  padding: 0 .3em;
+}
+
+th.dia {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.cantidad {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.libros {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.revistas {
+  
+  padding: 0 .3em 0 1.2em;
+}
+th.total {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+tr:nth-child(n+1) td {
+  text-align: right;
+}
+
+tr:nth-child(2n) {
+  background-color: #F0B27A;
+}
+
+tr:hover {
+  background: #F1C40F;
+}

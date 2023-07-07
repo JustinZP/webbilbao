@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Boleta rpm</title>
+        <meta charset="UTF-8">
+        <link href="cboleta.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="contenedor"> 
+
+            <h3>Formulario Boleta - Rene Poma Manchego</h3>
+            <h3>Datos </h3>
+            <h4>Numero de Boleta    -   A0000123</h4>
+            <form method="post" action="#">
+                <ul>
+                    <li>
+                        <label class="titulo" for="nombre">Nombre y apellidos</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="nombre" name="nombre" value="" />
+                                <label for="nombre">Nombre Completo</label>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="direccion">Dirección</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="direccion" name="direccion" value="" />
+                                <label for="direccion">Calle/Jiron/Avenida</label>
+                            </span>
+
+                            <span class="dostercios">
+                                <select id="departamento" name="departamento">
+                                <option value=""></option>
+                                    <option value="provincia1">Tacna</option>
+                                    <option value="provincia2">Arequipa</option>
+                                    <option value="provincia3">Ilo</option>
+                                </select>
+                                <label for="departamento">Departamento</label>
+                            </span>
+
+                            <span class="tercio">
+                                <select id="provincia" name="provincia">
+                                    <option value=""></option>
+                                    <option value="provincia1">Tacna</option>
+                                    <option value="provincia2">Candarave</option>
+                                    <option value="provincia3">Tarata</option>
+                                    <option value="provincia3">GregorioAlbarracin</option>
+                                </select>
+                                <label for="provincia">Provincia</label>
+                            </span>
+
+                            <span class="dostercios">
+                                <select id="pais" name="pais">
+                                    <option value=""></option>
+                                    <option value="pais1">Perú</option>
+                                    <option value="pais2">Chile</option>
+                                    <option value="pais3">Bolivia</option>
+                                </select>
+                                <label for="pais">País</label>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="email">Email</label>
+
+                        <div class="controles">
+                            <span class="completo">
+                                <input id="email" name="email" value="" />
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="titulo" for="telefonofijo">Teléfono</label>
+
+                        <div class="controles">
+                            <span class="mitad">
+                                <input id="telefonofijo" name="telefonofijo" value="" />
+                                <label for="telefonofijo">Fijo</label>
+                            </span>
+
+                            <span class="mitad">
+                                <input id="telefonomovil" name="telefonomovil" value="" />
+                                <label for="telefonomovil">Móvil</label>
+                            </span>
+                        </div>
+                    </li>
+                        
+                    <li>
+                        <h3>Detalle Boleta</h3>
+                        <table>
+                            <tr>
+                                <th> Cantidad</th>
+                                <th> Descripción</th>
+                                <th> Genero </th>
+                                <th> PrecioUnitario</th>
+                                <th> Importe</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>LIbro de Base de Datos 1</td>
+                                <td> Aprendizaje</td>
+                                <td> 25 s/.</td>
+                                <td> 50 s/.</td>
+                            </tr>
+                            <tr>
+                               <td>4</td>
+                                <td> Batman vs Superman</td>
+                                <td> Comic</td>
+                                <td> 10 s/.</td>
+                                <td> 40 s/.</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Romeo y Julieta</td>
+                                <td> Romance</td>
+                                <td> 30 s/.</td>
+                                <td> 30 s/.</td>
+                            </tr>
+                        </table>
+                    </li>
+
+                    <li class="botones">
+                        <input id="alta" type="submit" value="Imprimir" />
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+    </body>
+</html>
